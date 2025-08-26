@@ -1,108 +1,58 @@
 📱 Mobile Addiction Detection and Analysis
+Overview
 
-📝 Project Overview
+This project studies mobile phone usage to predict if a person might be addicted. It uses machine learning to find patterns of excessive use and gives insights to encourage healthier habits.
 
-This project analyzes mobile usage patterns to predict mobile addiction tendencies. Using machine learning, it identifies behaviors indicating excessive mobile use and provides actionable insights for healthier digital habits.
+Features
 
-⚡ Features
+Clean and prepare mobile usage data
 
-Data preprocessing and cleaning
+Explore and visualize usage patterns
 
-Exploratory Data Analysis (EDA) with visualizations
+Predict mobile addiction using machine learning models
 
-Machine learning models for mobile addiction prediction
+Evaluate models with accuracy, precision, recall, and F1-score
 
-Model evaluation with metrics: accuracy, precision, recall, F1-score
+Technologies
 
-🛠️ Technologies Used
-
-Language: Python
-
-Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
+Python with pandas, numpy, matplotlib, seaborn, scikit-learn
 
 Models: Logistic Regression, Random Forest, Gradient Boosting
 
-Visualization: Matplotlib, Seaborn
-
-📂 Project Structure
+Project Structure
 mobile-addiction-project/
 │
-├── README.md                 # Project documentation
-├── requirements.txt          # Python dependencies
-├── LICENSE                   # MIT License
-│
-├── data/                     # Dataset folder
-│   └── mobile_usage.csv
-│
-├── scripts/                  # Python scripts
-│   ├── data_preprocessing.py
-│   ├── exploratory_analysis.py
-│   ├── train_models.py
-│   ├── evaluate_models.py
-│   └── predict_addiction.py
-│
-├── results/                  # Model evaluation results
-│   └── model_metrics.csv
-│
-├── plots/                    # Data visualizations
-│   ├── correlation_heatmap.png
-│   └── screen_time_distribution.png
-│
-└── notebooks/                # Optional Jupyter notebooks
-    └── analysis.ipynb
+├── data/          # Dataset files
+├── scripts/       # Python scripts
+├── results/       # Model results
+├── plots/         # Visualizations
+├── notebooks/     # Optional Jupyter notebooks
+├── README.md
+├── requirements.txt
+└── LICENSE
 
-📥 Installation
-
-Clone the repository:
-
+Installation
 git clone <repository_link>
-
-
-Navigate to the project folder:
-
 cd mobile-addiction-project
-
-
-Install dependencies:
-
 pip install -r requirements.txt
 
-🖥️ Usage
-
-Preprocess data:
-
+Usage
 python scripts/data_preprocessing.py
-
-
-Visualize data (EDA):
-
 python scripts/exploratory_analysis.py
-
-
-Train machine learning models:
-
 python scripts/train_models.py
-
-
-Evaluate models:
-
 python scripts/evaluate_models.py
-
-
-Predict addiction level for new users:
-
 python scripts/predict_addiction.py
 
-📊 Results
+Results
 
 Evaluation metrics: results/model_metrics.csv
 
 Visualizations: plots/ folder
 
-🌟 Future Work
+Future Work
 
-Add more behavioral and demographic features for improved predictions
+Add more features for better predictions
 
-Deploy as a web or mobile application for real-time monitoring
+Create a web or mobile app for real-time monitoring
 
-Integrate wearable devices for combined activity and screen time tracking
+Integrate wearable devices for activity tracking
